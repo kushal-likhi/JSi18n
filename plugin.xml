@@ -1,0 +1,24 @@
+<plugin name='jsi18n' version='3.06' grailsVersion='2.0 &gt; *'>
+  <author>Kushal Likhi</author>
+  <authorEmail>kushal.likhi@gmail.com</authorEmail>
+  <title>Jsi18n Plugin</title>
+  <description>    This plugin aids and provide a very DRY and intuitive way to do internationalization for JavaScript files.
+    This plugin is high in runtime performance. It is also CDN/static resource caching friendly, hence could give a faster end user experience.
+    This plugin also supports auto reloading of JSi18n properties in the development enviornment just like any other artifact.
+    </description>
+  <documentation>http://grails.org/plugin/jsi18n</documentation>
+  <type>Jsi18nGrailsPlugin</type>
+  <resources>
+    <resource>jsi18n.JSi18nFilters</resource>
+    <resource>org.devunited.grails.plugin.jsi18n.taglib.JSi18nTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
