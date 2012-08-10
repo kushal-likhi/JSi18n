@@ -32,8 +32,7 @@ class Jsi18nGrailsPlugin {
 
     def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
 
-    // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+    def scm = [ url: "https://github.com/kushal-likhi/JSi18n/" ]
 
     def doWithWebDescriptor = DescriptorHelper.doWithWebDescriptor
 
